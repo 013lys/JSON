@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit_JSON">
+      <property name="plainText">
+       <string>{
+     &quot;number&quot;: &quot;1020501&quot;,
+     &quot;name&quot;: &quot;小傑&quot;,
+     &quot;age&quot;: 20,
+     &quot;sex&quot;: &quot;M&quot;,
+     &quot;interest&quot;: [
+         &quot;網頁設計&quot;,
+         &quot;撰寫文章&quot;,
+{ &quot;test1&quot; : &quot;abc&quot;,
+  &quot;test2&quot; : 123,
+ &quot;測試3&quot; : &quot;中文字&quot; }
+     ],
+     &quot;obj&quot;: {
+         &quot;x1&quot;: &quot;abc&quot;,
+         &quot;x2&quot;:  &quot;def123&quot;
+    }
+ }
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_parse">
+      <property name="text">
+       <string>解析</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
